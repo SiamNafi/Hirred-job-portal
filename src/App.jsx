@@ -24,7 +24,7 @@ function App() {
           path: "/onboarding",
           element: (
             <ProtectedRoute>
-              <OnBoarding />,
+              <OnBoarding />
             </ProtectedRoute>
           ),
         },
@@ -32,7 +32,7 @@ function App() {
           path: "/jobs",
           element: (
             <ProtectedRoute>
-              <JobListing />,
+              <JobListing />
             </ProtectedRoute>
           ),
         },
@@ -40,7 +40,7 @@ function App() {
           path: "/job/:id",
           element: (
             <ProtectedRoute>
-              <Job />,
+              <Job />
             </ProtectedRoute>
           ),
         },
@@ -48,7 +48,7 @@ function App() {
           path: "/post-job",
           element: (
             <ProtectedRoute>
-              <PostJob />,
+              <PostJob />
             </ProtectedRoute>
           ),
         },
@@ -56,7 +56,7 @@ function App() {
           path: "/saved-job",
           element: (
             <ProtectedRoute>
-              <SavedJobs />,
+              <SavedJobs />
             </ProtectedRoute>
           ),
         },
@@ -64,7 +64,7 @@ function App() {
           path: "/my-jobs",
           element: (
             <ProtectedRoute>
-              <MyJobs />,
+              <MyJobs />
             </ProtectedRoute>
           ),
         },

@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 const AppLayout = () => {
   return (
     <div>
-      <main className="min-h-screen px-20">
+      <main className="min-h-screen p-3 lg:px-20">
         <Header />
         <Outlet />
       </main>
