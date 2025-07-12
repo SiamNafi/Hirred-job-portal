@@ -9,11 +9,10 @@ import { Briefcase, DoorClosed, DoorOpen, MapPinIcon } from "lucide-react";
 import {
   Select,
   SelectContent,
-  SelectGroup,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "../components/ui/select";
 import ApplyJob from "../components/ApplyJob";
 import ApplicationCard from "../components/ApplicationCard";
 
