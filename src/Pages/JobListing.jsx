@@ -105,13 +105,13 @@ const JobListing = () => {
           <SelectContent>
             <SelectGroup>
               {State.getStatesOfCountry("BD").map(({ name }) => {
-                const cleanedName = name
-                  .replace(/ District| Division/gi, "")
-                  .trim();
+                // const cleanedName = name
+                //   .replace(/ District| Division/gi, "")
+                //   .trim();
 
                 return (
-                  <SelectItem key={name} value={cleanedName}>
-                    {cleanedName}
+                  <SelectItem key={name} value={name}>
+                    {name}
                   </SelectItem>
                 );
               })}
