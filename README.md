@@ -41,19 +41,3 @@
 - **Deployment**: [Vercel](https://vercel.com/)
 
 ---
-
-## ⚙️ Getting Started
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/yourusername/hirred.git
-
-# 2. Navigate into the project folder
-cd hirred
-
-# 3. Install dependencies
-npm install
-
-# 4. Start the development server
-npm run dev
-```
