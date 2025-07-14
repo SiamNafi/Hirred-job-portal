@@ -17,16 +17,17 @@ import companies from "../data/companies.json";
 import faqs from "../data/faq.json";
 
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const LandingPage = () => {
   return (
     <main className="flex flex-col gap-10 sm:gap-20 py-10 sm:py-20">
       <section className="text-center">
-        <h1 className="p-4 flex flex-col items-center justify-center bg-gradient-to-br from-gray-500 via-gray-200 to-white text-4xl font-extrabold text-transparent bg-clip-text sm:text-6xl lg:text-8xl tracking-tighter">
+        <h1 className="p-4 flex flex-col items-center justify-center text-4xl font-extrabold gradient-title sm:text-6xl lg:text-8xl tracking-tighter">
           Find Your Dream Job{" "}
           <span>
             and get{" "}
-            <span className="font-extrabold text-purple-600 text-4xl sm:text-6xl lg:text-8xl">
+            <span className="font-extrabold gradient-title text-4xl sm:text-6xl lg:text-8xl">
               Hirred.
             </span>
           </span>

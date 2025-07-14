@@ -17,6 +17,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { State } from "country-state-city";
+import { Helmet } from "react-helmet";
 
 const JobListing = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -66,14 +67,12 @@ const JobListing = () => {
     setLocation("");
   };
 
-  console.log(location);
-
   if (!isLoaded)
     return <BarLoader className="mb-4" width={"100%"} color="#36d7b7" />;
 
   return (
     <div>
-      <h1 className="bg-gradient-to-br from-gray-500 via-gray-200 to-white text-transparent bg-clip-text text-6xl sm:text-7xl text-center  font-extrabold pb-8">
+      <h1 className="gradient-title text-6xl sm:text-7xl text-center  font-extrabold pb-8">
         Latest Jobs
       </h1>
       {/* add filter here */}
